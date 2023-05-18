@@ -1,0 +1,18 @@
+body {
+  color: white;
+  font-family: Maximum Impact;
+}
+
+::-webkit-scrollbar {
+  background: transparent; /*THis will hiden the scrolbar when it's not moving */
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: rgba(
+    190,
+    20,
+    20,
+    0.61
+  ); /* This will show the bar when it's moving and black background and rounded at corner */
+  border-radius: 10px;
+}
