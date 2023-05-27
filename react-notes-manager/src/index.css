@@ -1,4 +1,8 @@
-body{
+#root {
+  height: 100vh;
   font-family: Roboto;
-  background-color: #F8F9FB;
+  background-color: #f8f9fb;
 }
+
+/* # this mean we are :targeting the root component 
+of the app and height will be 100vh */

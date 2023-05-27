@@ -1,5 +1,6 @@
 import { SearchBar } from "components/SearchBar/SearchBar";
 import { NoteList } from "container/NoteList/NoteList";
+import { withAuthRequired } from "hoc/withAuthRequired";
 import React from "react";
 import { useState } from "react";
 import { useSelector } from "react-redux";
@@ -41,3 +42,5 @@ export const NoteBrowser = (props) => {
     </>
   );
 };
+
+export const ProtectedNoteBrowse = withAuthRequired(NoteBrowser);
